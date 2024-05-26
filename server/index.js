@@ -12,6 +12,7 @@ const app = require("./app/config");
 // Get the port from the environment variables
 const port = process.env.APP_PORT;
 
+
 // Start the server and listen on the specified port
 app
   .listen(port, () => {
